@@ -1,0 +1,16 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 165 197" width="165" height="197">
+	<title>bag-svg</title>
+	<style>
+		tspan { white-space:pre } 
+		.t0 { font-size: 73px;fill: #000000;font-weight: 400;font-family: "LiberationSans", "Liberation Sans" } 
+		.s1 { fill: #000000 } 
+	</style>
+	<text id="0" style="transform: matrix(1,0,0,1,82,158.55)" >
+		<tspan x="-20.3" y="0" class="t0">0
+</tspan>
+	</text>
+	<text id="" style="transform: matrix(1,0,0,1,-119,-39)" >
+	</text>
+	<path id="Layer" class="s1" d="m116.1 51.8v16.8l-1.1-0.1v1.4h-6.6v-18.1c0-15.4-11.9-27.9-26.4-27.9-14.6 0-26.4 12.5-26.4 27.9v18.1h-7.8v-18.1c0-19.8 15.3-35.8 34.1-35.8 18.8 0 34.1 16.1 34.2 35.8z"/>
+	<path id="Layer" fill-rule="evenodd" class="s1" d="m164.9 201.1h-164.9v-134h164.9zm-156.9-126v118h148.9v-118z"/>
+</svg>
