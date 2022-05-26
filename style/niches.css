@@ -1,0 +1,82 @@
+/*niches*/
+#niches {
+    background-color: rgb(240, 240, 240);
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1vh;
+    padding: 1vh 0;
+    position: relative;
+}
+
+#niches img {
+    width: 30.5vw;
+    height: auto;
+}
+
+#shoes, #accesories, #tops {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#shoes::before {
+    position: absolute;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: "SHOES";
+    width: 20vw;
+    height: 20vw;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 1.5vw;
+}
+
+#accesories::before  {
+    position: absolute;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: "ACCESORIES";
+    width: 20vw;
+    height: 20vw;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 1.5vw;
+}
+
+#tops::before  {
+    position: absolute;
+    color: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: "TOPS";
+    width: 20vw;
+    height: 20vw;
+    background-color: rgba(0, 0, 0, 0);
+    font-size: 1.5vw;
+}
+
+#shoes:hover::before, #accesories:hover::before, #tops:hover::before {
+    animation: appear;
+    animation-duration: 0.5s;
+    animation-fill-mode: forwards;
+    cursor: pointer;
+}
+
+@keyframes appear {
+    0% {
+        background-color: rgba(0, 0, 0, 0);
+        width: 20vw;
+        height: 20vw;
+        color: transparent;
+    }
+    100% {
+        background-color: rgba(0, 0, 0, 0.7);
+        width: 30.5vw;
+        height: 30.5vw;
+        color: rgb(166, 122, 75);
+    }
+}

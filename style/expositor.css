@@ -1,0 +1,86 @@
+/*carousel expositor*/
+
+#expositor {
+    margin: 0 6.45vw;
+    width: 87.1vw;
+    height: 62.9vw;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    position: relative;
+}
+
+#expositor article {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 3vw;
+}
+
+#expositor article h2 {
+    color: white;
+    font-weight: 700;
+    font-size: 6vw;
+    text-align: center;
+}
+
+#expositor article button {
+    color: white;
+    background-color: transparent;
+    border: 3px solid white;
+    width: 10.5vw;
+    height: 3.45vw;
+    font-size: 1.2vw;
+    border-radius: 50px;
+}
+
+#expositor article button:hover {
+    transition: 0.3s all;
+    background-color: rgb(166, 122, 75);
+    border: 3px solid rgb(166, 122, 75);
+    cursor: pointer;
+}
+
+#expositor-itens {
+    width: 87.1vw;
+    height: 62.9vw;
+    list-style: none;
+    display: flex;
+    position: absolute;
+    animation-name: slide;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;   
+}
+
+.expositor-item img{
+    width: 87.1vw;
+    height: 62.9vw;
+}
+
+@keyframes slide {
+    0% {
+        left: 0;
+    }
+    29% {
+        left: 0vw;
+    }
+    33% {
+        left: -87.1vw;
+    }
+    62% {
+        left: -87.1vw;
+    }
+    66% {
+        left: calc(-87.1vw*2);
+    }
+    96% {
+        left: calc(-87.1vw*2);
+    }
+    100% {
+        left:calc(-87.1vw*3);
+    }
+}

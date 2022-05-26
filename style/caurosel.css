@@ -1,0 +1,117 @@
+/*caurosel*/
+#caurosel-container {
+    width: 100vw;
+    height: 51.69vw;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(240, 240, 240);
+    justify-content: space-between;
+    align-items: center;
+    padding: 15vh 0;
+}
+
+#caurosel-container h2 {
+    font-weight: 400;
+    font-size: 1.2vw;
+    letter-spacing: 0.3vw;
+}
+
+#caurosel-container button {
+    color: rgb(166, 122, 75);
+    border: 3px solid rgb(166, 122, 75);
+    width: 10.5vw;
+    height: 3.45vw;
+    font-size: 1.2vw;
+    border-radius: 50px;
+}
+
+#caurosel-container button:hover {
+    cursor: pointer;
+}
+
+#caurosel-container #btn-shop:hover {
+    transition: 0.5s all;
+    background-color: rgb(166, 122, 75);;
+    color: white;
+}
+
+#caurosel {
+    display: flex;
+    align-items: center;
+    width: 100vw;
+    padding-left: 5vw;
+}
+
+#caurosel button {
+    width: 2vw;
+    border: none;
+    font-size: 2.5vw;
+    color: black;
+}
+
+#lista {
+    display: flex;
+    list-style: none;
+    width: 83.11vw;
+    overflow: hidden;
+}
+
+#lista li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    width: 14.3vw;
+    height: 21.65vw;
+    background-color: white;
+    margin: 0 3.23vw;
+    padding: 0.51vw;
+    padding-bottom: 2vw;
+    font-size: 1.2vw;
+    position: relative;
+    transition: 0.5s all ease;
+
+}
+
+#lista img {
+    width: 13.42vw;
+    height: 13.42vw;
+}
+
+#lista .caurosel-animation {
+    position: absolute;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top:12vw;
+    background-color: transparent;
+    color: transparent;
+}
+
+#lista li:hover {
+    cursor: pointer;
+}
+
+#lista li:hover .caurosel-animation{
+    cursor: pointer;
+    animation-name: up;
+    animation-duration: 0.3s;
+    animation-fill-mode:forwards;
+}
+
+@keyframes up {
+    0% {
+        top:12vw;
+        background-color: transparent;
+        display: none;
+        color: transparent;
+    }
+    100% {
+        top:10vw;
+        background-color: rgba(255, 255, 255, 0.674);
+        display: flex;
+        color: black;
+    }
+}

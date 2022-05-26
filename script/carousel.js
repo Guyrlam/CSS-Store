@@ -7,7 +7,7 @@ function show(indice, indiceLista) {
 
     let listaUl = document.querySelector('#lista')
 
-    let mover  = 295.3
+    let mover  = 295.73
     let posicaoXDireita = mover
     let posicaoXEsquerda = -mover
 

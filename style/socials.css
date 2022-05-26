@@ -1,0 +1,20 @@
+/*main*/
+main {
+    padding-top: 12.95vh;
+}
+
+/*socials*/
+#socials {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    right: 0;
+    justify-content: center;
+    margin-right: 2vw;
+    gap: 5vh;
+}
+
+#socials i {
+    font-size: 1.5vw;
+}

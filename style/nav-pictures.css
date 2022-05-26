@@ -1,0 +1,41 @@
+/*nav pictures*/
+#nav-pictures {
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    padding: 5vw 6.45vw;
+    flex-wrap: wrap;
+}
+
+#nav-pictures figure {
+    width: 40.7vw;
+    height: auto;
+    position: relative;
+}
+
+#nav-pictures figcaption {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-weight: 700;
+    font-size: 6vw;
+    text-align: center;
+}
+
+#nav-pictures figcaption span:hover {
+    transition: 0.3s all;
+    color: rgb(166, 122, 75);
+    cursor: pointer;
+}
+
+#nav-pictures img {
+    width: 40.7vw;
+    height: auto;
+}
