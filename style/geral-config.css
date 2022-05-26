@@ -7,13 +7,13 @@
 /*fonts*/
 @font-face {
     font-family: "Metropolis";
-    src: url(./assets/fonts/Metropolis-Regular.ttf);
+    src: url(../assets/fonts/Metropolis-Regular.ttf);
     font-weight: 400;
 }
 
 @font-face {
     font-family: "Metropolis";
-    src: url(./assets/fonts/Metropolis-Bold.ttf);
+    src: url(../assets/fonts/Metropolis-Bold.ttf);
     font-weight: 700;
 }
 
